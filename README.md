@@ -4,7 +4,4 @@
  Poundra Adiyatma,
  Dimas Alief Yudhistira
 
- buat tugas tapi semoga di lanjut
- sederhana tapi yang penting niat
-
- EDIT: GILA SUSAH BANGET WOY
+ semangat bejuang!
