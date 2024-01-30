@@ -10,7 +10,7 @@ import (
 var DB *sql.DB
 
 func ConnectDB() {
-	db, err := sql.Open("mysql", "admin:12345@/go_TokoSepatuDPD?charset=utf8")
+	db, err := sql.Open("mysql", "root:@/go_TokoSepatuDPD?charset=utf8")
 	if err != nil {
 		panic(err)
 	}

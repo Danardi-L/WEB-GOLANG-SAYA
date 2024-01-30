@@ -21,6 +21,13 @@ func main() {
 	})
 	// 1.homepagenya
 	r.GET("/", controller.Welcome)
+	// 2.category
+	r.GET("/category", controller.CategoryList)
+	// 3.product
+	r.GET("/product", controller.ProductList)
+
+	r.GET("/about", controller.About)
+	r.Static("/asset", "./asset")
 
 	// // 2. category
 	// http.HandleFunc("/category", categorycontroller.indexCategory)
